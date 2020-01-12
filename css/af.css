@@ -1,0 +1,125 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+}
+header{
+	background-image: url(../css/img/4.jpg);
+	height: 100vh;
+	background-size: 100% 98vh;
+	background-position:center;
+	background-repeat: no-repeat;
+
+
+
+}
+
+
+.heading h1{
+	margin-left: 30%;
+	margin-top: 35vh;
+	position: absolute;
+	color: white;
+	font-size: 70px;
+	font-family: serif;
+	transition: 0.4s ease;
+
+}
+
+.heading h1:hover{
+	color:  #a6a6a6;
+}
+
+.button{
+	margin-left: 37%;
+	margin-top: 52vh;
+	position: absolute;
+
+
+}
+.button .btn{
+	text-decoration: none;
+	border: 1px solid white;
+	padding: 10px 30px;
+	color: white;
+	transition: 0.4s ease;
+	border-radius: 10px;
+	
+
+}
+.btn:hover{
+	background-color: white;
+	color: black;
+
+}
+
+.btn input{
+	position: absolute;
+	margin-left: 90%;
+	margin-top: 2%;
+	font-family: serif;
+	padding:8px 14px;
+	font-size: 18px;
+	border-radius: 10px;
+	transition: 0.2s ease;
+	color: white;
+	background-color: black;
+}
+
+.btn input:hover{
+	color: black;
+	background-color: white;
+}
+
+
+@media only screen and (max-width: 850px){
+	.heading h1{
+		font-size: 60px;
+	}
+	.btn input{
+		margin-left: 85%;
+
+
+	}
+
+}
+
+
+
+@media only screen and (max-width: 680px){
+	.heading h1{
+		font-size: 50px;
+		margin-left: 23%;
+	}
+	.btn input{
+		margin-left: 80%;
+		margin-top: 4%;
+
+
+	}
+	.button{
+		margin-left: 30%;
+		margin-top: 52vh;
+	}
+
+}
+
+@media only screen and (max-width: 500px){
+	.heading h1{
+		font-size: 50px;
+		margin-left: 14%;
+	}
+	.btn input{
+		margin-left: 76%;
+		margin-top: 4%;
+
+
+	}
+	.button{
+		margin-left: 23%;
+		margin-top: 52vh;
+	}
+
+}
+
+

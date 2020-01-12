@@ -1,0 +1,99 @@
+*{
+	margin:0;
+	padding:0;
+	font-family:century gothic;
+}
+
+header{
+	background-image: url(../css/img/3.png);
+	height:100vh;
+	background-size:cover;
+	background-position:center;
+	background-repeat: no-repeat;
+	
+}
+
+.logo img{
+	position:absolute;
+	width:22%;
+	height: 18vh;
+	margin-left: -2%;
+	margin-top: 8px;
+
+}
+
+.heading{
+	position: absolute;
+	margin-left: 1%;
+	margin-top: 72vh;
+}
+
+.heading h1{
+	font-size: 63px;
+	color: white;
+	font-family: serif;
+
+}
+.heading h2{
+	color: white;
+	font-family: bold;
+}
+
+
+ul{
+	float:right;
+	list-style-type:none;
+	margin-top:30px;
+	margin-right:15px;
+}
+
+ul li{
+	display:inline-block;
+	
+}
+
+ul li a{
+	text-decoration:none;
+	color:white;
+	padding:6px 20px;
+	border:1px solid white transparent;
+	transition:0.4s ease;
+}	
+
+ul li a:hover{
+	background-color:white;
+	border-radius: 10px;
+	color:black;
+
+}	
+.active a{
+	border-radius: 10px;
+	background-color:white;
+	color:black;
+
+	
+}
+
+@media only screen and (max-width: 580px){
+	.heading h1{
+		font-size: 40px;
+		color: red;
+	}
+	.main ul li{
+		width: 68px;
+
+	}
+
+}
+@media only screen and (max-width: 530px){
+	
+	.main ul li{
+		width: 10%;
+		margin-left: 36%;
+		padding: 12px;
+		
+	}
+
+
+}
+

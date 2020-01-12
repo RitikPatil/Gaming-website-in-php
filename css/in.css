@@ -1,0 +1,938 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+}
+
+header{
+	background-color: rgba(0,0,0,1);
+	height: 10vh;
+
+
+}
+
+.heading h1{
+	position: absolute;
+	color: white;
+	position: absolute;
+	font-family: bold;	
+	margin-top: 3px;
+	margin-left: 1%;
+	font-size: 41px;
+	
+
+	
+}
+
+.main .btn input{
+	position: absolute;
+	margin-top: 1%;
+	margin-left: 90%;
+	font-family: serif;
+	padding:5px 10px;
+	background-color: black;
+	color:white;
+	border:1px solid white;
+	font-size: 18px;
+	border-radius: 10px;
+	transition: 0.2s ease;
+}
+
+.main .btn input:hover{
+	background-color:white;
+	border-radius: 10px;
+	color:black;
+
+}
+
+.search{ 
+	position: absolute;
+	background-color: #ffcc99;
+	margin-left: 70%;
+	margin-top: 1%;
+	height: 24px;
+	width:17%;
+	padding: 5px;
+	border-radius: 40px;
+	
+
+}
+
+.search input{
+	position: absolute;
+	border: none;
+	background: none;
+	color: black;
+	font-size: 111%;
+	margin-top: -1px;
+	border-radius: 40px;
+	width: 86%;
+	height: 26px;
+	font-family: bold;
+	outline: none;
+	
+
+}
+
+.search .icon{
+	text-decoration: none;
+	height: 100%;
+	width: 15%;
+	margin-top: -2%;
+	margin-right: -2%;
+	background: none;
+	float: right;
+	border-radius: 20px;
+	text-align: center;
+	line-height: 26px;
+	padding: 2px;
+
+
+
+}
+
+
+.container{ 
+	width: 100%;
+	height: 170vh;
+	background-color: #e6e6e6; 
+	overflow: scroll;
+	
+
+	
+
+	
+}
+
+
+
+.container .box-1{
+	background-color: white;
+	width: 22%;
+	height: 50vh;
+	margin-top: 25px;
+	margin-left: 35px;
+	float: left;
+	transition: 0.3s ease;
+	overflow: hidden;
+	border-bottom: 1px solid black;
+
+
+
+
+
+}
+.container .box-1:hover{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+
+}
+
+.container .box-1 .banner{
+	width: 100%;
+	height: 33vh;
+	margin-left: -1px;
+	margin-top: -1%;
+	overflow: hidden;
+
+
+}
+
+.container .box-1 h4{
+	position: absolute;
+	font-family: times;
+	font-size: 20px;	
+	margin-top: 2%;
+	margin-left: 1%;
+	color:  #ff4d4d; 
+
+
+
+}
+
+
+
+
+.container .box-1 .banner img{
+		width: 100%;
+		height: 33vh;
+
+
+}
+
+.container .box-1 .banner .highlight{
+	position: absolute;
+	background-color: rgba(0,0,0,0.5);
+	width: 100%;
+	height: 33vh;
+	opacity: 0; 
+	transition: 0.5s ease;
+
+}
+
+.container .box-1 .banner .highlight h4{
+	color: white;
+	margin-left: 6%;
+	margin-top: 5vh;
+	font-size: 23px;
+	font-family: bold;
+
+}
+
+.container .box-1 .banner:hover .highlight{
+	opacity: 1;
+
+}
+
+
+
+.container .box-1 a{
+	position: absolute;
+	text-decoration: none;
+	margin-top: 21%;
+	margin-left: 2px;
+	padding: 8px;
+	border: 2px solid black;
+	font-family: serif;
+	background-color: black;
+	color: white;
+	border-radius: 5px;
+	width: 92%;
+	text-align: center;
+	
+	
+
+}
+
+.container .box-1 a:hover{
+	background-color: white;
+	color: black;
+
+
+}
+
+.special{
+	width: 100%;
+	height: 110vh;
+	background-color: black;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.special .title h3{
+	position: absolute;
+	font-family: times;
+	margin-left: 18px;
+	margin-top: 3px;
+	font-size: 35px;
+	color: white;
+	transition: 0.3s ease;
+}
+
+.special .title h3:hover{
+	color: red;
+}
+
+
+
+
+.special .part1{
+	position: absolute;
+	width: 30%;
+	height: 42vh;
+	margin-left: 20px;
+	margin-top: 80px;
+	background-color: black;
+	
+}
+
+.special .part2{
+	position: absolute;
+	width: 30%;
+	height: 42vh;
+	margin-left: 34%;
+	margin-top: 80px;
+	background-color: black;
+}
+
+.special .part3{
+	position: absolute;
+	width: 30%;
+	height: 42vh;
+	margin-left: 66%;
+	margin-top: 80px;
+	background-color: black;
+}
+
+.special .part4{
+	position: absolute;
+	width: 30%;
+	height: 42vh;
+	margin-left: 20px;
+	margin-top: 30%;
+	background-color: white;
+}
+
+
+.special .part5{
+	position: absolute;
+	width: 30%;
+	height: 42vh;
+	margin-left: 34%;
+	margin-top: 30%;
+	background-color: white;
+}
+
+.special .part6{
+	position: absolute;
+	width: 30%;
+	height: 42vh;
+	margin-left: 66%;
+	margin-top: 30%;
+	background-color: white;
+}
+
+
+.special .part1 img{
+	width: 101%;
+	height: 42vh;
+
+}
+
+.special .part2 img{
+	width: 101%;
+	height: 42vh;
+
+}
+
+.special .part3 img{
+	width: 101%;
+	height: 42vh;
+
+}
+
+.special .part4 img{
+	width: 101%;
+	height: 42vh;
+
+}
+
+.special .part5 img{
+	width: 101%;
+	height: 42vh;
+
+}
+
+.special .part6 img{
+	width: 101%;
+	height: 42vh;
+
+}
+
+.part1 .view1{
+	position: absolute;
+	width: 101%;
+	height: 42vh;
+	background-color: rgba(0,0,0,0.5);
+	transition: 0.4s ease;
+	opacity: 0;
+
+	
+
+
+}
+
+
+
+.part2 .view2{
+	position: absolute;
+	width: 101%;
+	height: 42vh;
+	background-color: rgba(0,0,0,0.5);
+	transition: 0.4s ease;
+	opacity: 0;
+
+}
+
+
+.part3 .view3{
+	position: absolute;
+	width: 101%;
+	height: 42vh;
+	background-color: rgba(0,0,0,0.5);
+	transition: 0.4s ease;
+	opacity: 0;
+
+
+}
+
+
+
+.part4 .view4{
+	position: absolute;
+	width: 101%;
+	height: 42vh;
+	background-color: rgba(0,0,0,0.5);
+	transition: 0.4s ease;
+	opacity: 0;
+
+
+}
+
+
+
+.part5 .view5{
+	position: absolute;
+	width: 101%;
+	height: 42vh;
+	background-color: rgba(0,0,0,0.5);
+	transition: 0.4s ease;
+	opacity: 0;
+
+
+}
+
+
+.part6 .view6{
+	position: absolute;
+	width: 101%;
+	height: 42vh;
+	background-color: rgba(0,0,0,0.5);
+	transition: 0.4s ease;
+	opacity: 0;
+
+
+}
+
+.part1 .view1 a{
+	position: absolute;
+	margin-left: 31%;
+	margin-top: 16vh;
+	text-decoration: none;
+	color: black;
+	background-color: white;
+	padding: 12px;
+	border-radius: 10px;
+	font-family: serif;
+	width: 30%;
+	text-align: center;
+	border: 1px solid black;
+	transition: 0.2s ease;
+
+}
+
+
+
+.part1 .view1 a:hover{
+	background-color: rgba(0,0,0,0.3);
+	color: white;
+	border:2px solid white;
+}
+
+
+.part2 .view2 a{
+	position: absolute;
+	margin-left: 31%;
+	margin-top: 16vh;
+	text-decoration: none;
+	color: black;
+	background-color: white;
+	padding: 12px;
+	border-radius: 10px;
+	font-family: serif;
+	width: 30%;
+	text-align: center;
+	border: 1px solid black;
+	transition: 0.2s ease;
+
+}
+
+
+
+.part2 .view2 a:hover{
+	background-color: rgba(0,0,0,0.3);
+	color: white;
+	border:2px solid white;
+}
+
+.part3 .view3 a{
+	position: absolute;
+	margin-left: 31%;
+	margin-top: 16vh;
+	text-decoration: none;
+	color: black;
+	background-color: white;
+	padding: 12px;
+	border-radius: 10px;
+	font-family: serif;
+	width: 30%;
+	text-align: center;
+	border: 1px solid black;
+	transition: 0.2s ease;
+
+}
+
+
+
+.part3 .view3 a:hover{
+	background-color: rgba(0,0,0,0.3);
+	color: white;
+	border:2px solid white;
+}
+
+
+.part4 .view4 a{
+	position: absolute;
+	margin-left: 31%;
+	margin-top: 16vh;
+	text-decoration: none;
+	color: black;
+	background-color: white;
+	padding: 12px;
+	border-radius: 10px;
+	font-family: serif;
+	width: 30%;
+	text-align: center;
+	border: 1px solid black;
+	transition: 0.2s ease;
+
+}
+
+
+
+.part4 .view4 a:hover{
+	background-color: rgba(0,0,0,0.3);
+	color: white;
+	border:2px solid white;
+	
+}
+
+.part5 .view5 a{
+	position: absolute;
+	margin-left: 31%;
+	margin-top: 16vh;
+	text-decoration: none;
+	color: black;
+	background-color: white;
+	padding: 12px;
+	border-radius: 10px;
+	font-family: serif;
+	width: 30%;
+	text-align: center;
+	border: 1px solid black;
+	transition: 0.2s ease;
+
+}
+
+
+
+.part5 .view5 a:hover{
+	background-color: rgba(0,0,0,0.3);
+	color: white;
+	border:2px solid white;
+}
+
+
+.part6 .view6 a{
+	position: absolute;
+	margin-left: 31%;
+	margin-top: 16vh;
+	text-decoration: none;
+	color: black;
+	background-color: white;
+	padding: 12px;
+	border-radius: 10px;
+	font-family: serif;
+	width: 30%;
+	text-align: center;
+	border: 1px solid black;
+	transition: 0.2s ease;
+
+}
+
+
+
+.part6 .view6 a:hover{
+	background-color: rgba(0,0,0,0.3);
+	color: white;
+	border:2px solid white;
+}
+
+
+.part1:hover .view1{
+	opacity: 1;
+}
+
+.part2:hover .view2{
+	opacity: 1;
+}
+.part3:hover .view3{
+	opacity: 1;
+}
+.part4:hover .view4{
+	opacity: 1;
+}
+.part5:hover .view5{
+	opacity: 1;
+}
+
+.part6:hover .view6{
+	opacity: 1;
+}
+
+
+.part1,.part2,.part3,.part4,.part5,.part6{
+	opacity: 0;
+}
+
+
+.part1 .animated,.part2 .animated,.part3 .animated,.part4 .animated,.part5 .animated,.part6 .animated{
+	opacity: 1;
+}
+
+
+
+footer{
+	background-color: rgba(0,0,0,0.9);
+	height: 22vh;
+	width: 100%;
+
+
+	 
+}
+
+footer h3{
+	position: absolute;
+	margin-left: 30%;
+	margin-top: 4%;
+	color: white;
+	font-family: serif;
+	font-size: 22px;
+}
+
+
+
+
+@media only screen and (max-width: 1200px){
+	.container .box-1{
+		width: 28%;
+	}
+	.container .box-1 a{
+		margin-top: 17%;
+	}
+	.heading h1{
+		font-size: 32px;
+	
+	}
+	.special .part1{
+		width: 30%;
+	}
+	.special .part2{
+		width: 30%;
+
+	}.special .part3{
+		width: 30%;
+	}.special .part4{
+		width: 30%;
+	}.special .part5{
+		width: 30%;
+	}.special .part6{
+		width: 30%;
+	}
+
+
+
+
+	
+}
+
+
+
+@media only screen and (max-width: 900px){
+	.container .box-1{
+		width: 28%;
+	}
+	.container .box-1 a{
+		margin-top: 17%;
+	}
+	.heading h1{
+		font-size: 30px;
+	
+	}
+	.search{
+		margin-left: 63%;
+		width: 20%;
+	}
+	
+	.main .btn input{
+		margin-left: 86%;
+	}
+
+	.special .part1{
+		width: 28%;
+		
+	}
+	.special .part2{
+		width: 28%;
+	
+	}.special .part3{
+		width: 28%;
+	}.special .part4{
+		width: 28%;
+		margin-top: 40%;
+	}.special .part5{
+		width: 28%;
+		margin-top: 40%;
+	}.special .part6{
+		width: 28%;
+		margin-top: 40%;
+	}
+
+
+
+
+
+}
+
+@media only screen and (max-width: 700px){
+	.container .box-1{
+		width: 40%;
+	}
+	.container .box-1 a{
+		margin-top: 13%;
+	}
+	.heading h1{
+		font-size: 28px;
+	}
+	
+	.search{
+		margin-top: 2%;
+	}
+	
+	.main .btn input{
+		margin-top: 2%;
+		
+	}
+
+
+	.special .part1{
+		width: 28%;
+		
+	}
+	.special .part2{
+		width: 28%;
+	
+	}.special .part3{
+		width: 28%;
+	}.special .part4{
+		width: 28%;
+		margin-top: 50%;
+	}.special .part5{
+		width: 28%;
+		margin-top: 50%;
+	}.special .part6{
+		width: 28%;
+		margin-top: 50%;
+	}
+
+	.part1 .view1 a{
+		width: 52%;
+		margin-left: 28px;
+		
+	}
+	.part2 .view2 a{
+		width: 52%;
+		margin-left: 28px;
+		
+	}
+	.part3 .view3 a{
+		width: 52%;
+		margin-left: 28px;
+		
+	}
+	.part4 .view4 a{
+		width: 52%;
+		margin-left: 28px;
+		
+	}.part5 .view5 a{
+		width: 52%;
+		margin-left: 28px;
+		
+	}
+	.part6 .view6 a{
+		width: 52%;
+		margin-left: 28px;
+		
+	}
+
+
+	
+
+
+
+}
+
+
+@media only screen and (max-width: 450px){
+	.container .box-1{
+		width: 80%;
+	}
+	.container .box-1 a{
+		margin-top: 13%;
+	}
+	.heading h1{
+		width: 3%;
+		font-size: 18px;
+		margin-top: 2%;
+	}
+
+	.search{
+		width: 48%;
+		margin-left: 29%;
+	}
+	
+	.main .btn input{
+		margin-left: 82%;
+		
+	}
+
+	.special .part1{
+		width: 28%;
+		
+	}
+	.special .part2{
+		width: 28%;
+	
+	}.special .part3{
+		width: 28%;
+	}.special .part4{
+		width: 28%;
+		margin-top: 74%;
+	}.special .part5{
+		width: 28%;
+		margin-top: 74%;
+	}.special .part6{
+		width: 28%;
+		margin-top: 74%;
+	}
+
+	.special .title h3{
+		font-size: 30px;
+	}
+
+
+	.part1 .view1 a{
+		width: 55%;
+		margin-left: 10px;
+		
+	}
+	.part2 .view2 a{
+		width: 55%;
+		margin-left: 10px;
+		
+	}
+	.part3 .view3 a{
+		width: 55%;
+		margin-left: 10px;
+		
+	}
+	.part4 .view4 a{
+		width: 55%;
+		margin-left: 10px;
+		
+	}.part5 .view5 a{
+		width: 55%;
+		margin-left: 10px;
+		
+	}
+	.part6 .view6 a{
+		width: 55%;
+		margin-left: 10px;
+		
+	}
+	
+
+}
+
+
+@media only screen and (max-width: 380px){
+	.container .box-1{
+		width: 80%;
+	}
+	.container .box-1 a{
+		margin-top: 13%;
+	}
+	.heading h1{
+		opacity: 0;
+	
+	}
+
+	.search{
+		width: 66%;
+		margin-left: 6%;
+	}
+	
+	.main .btn input{
+		margin-left: 77%;
+		
+	}
+
+	.special .part1{
+		width: 28%;
+		
+	}
+	.special .part2{
+		width: 28%;
+	
+	}.special .part3{
+		width: 28%;
+	}.special .part4{
+		width: 28%;
+		margin-top: 74%;
+	}.special .part5{
+		width: 28%;
+		margin-top: 74%;
+	}.special .part6{
+		width: 28%;
+		margin-top: 74%;
+	}
+
+	.special .title h3{
+		font-size: 30px;
+	}
+	
+
+	.part1 .view1 a{
+		width: 55%;
+		margin-left: 10px;
+		
+	}
+	.part2 .view2 a{
+		width: 55%;
+		margin-left: 10px;
+		
+	}
+	.part3 .view3 a{
+		width: 55%;
+		margin-left: 10px;
+		
+	}
+	.part4 .view4 a{
+		width: 55%;
+		margin-left: 10px;
+		
+	}.part5 .view5 a{
+		width: 55%;
+		margin-left: 10px;
+		
+	}
+	.part6 .view6 a{
+		width: 55%;
+		margin-left: 10px;
+		
+	}
+
+
+
+}
+
+
